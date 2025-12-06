@@ -26,7 +26,12 @@ This repository contains the complete experimental code for benchmarking three a
 
 ```
 Conference/
-├── FineTuneMusic/          # Fine-tuning & trainning code notebooks for music dataset
+├── Fine-TunedSpeech/       # Cross-domain: Fine-tuned models evaluated on speech
+│   ├── ast-finetuned-eval/
+│   ├── wav2vec2-finetuned-eval/
+│   └── wavlm-zero-shot/
+│
+├── FineTuneMusic/          # Fine-tuning & training code notebooks for music dataset
 │   ├── trainClassification.ipynb  (AST)
 │   ├── wave2vec.ipynb
 │   └── wavlm.ipynb
@@ -36,14 +41,9 @@ Conference/
 │   ├── wav2vec2-zero-shot/
 │   └── wavlm-zero-shot/
 │
-├── Fine-TunedSpeech/       # Cross-domain: Fine-tuned models evaluated on speech
-│   ├── ast-finetuned-eval/
-│   ├── wav2vec2-finetuned-eval/
-│   └── wavlm-zero-shot/
-│
 └── ZershotSPeech/          # Zero-shot evaluation on speech dataset
     ├── ast-zero-shot/
-    └── wav2vec2-zero-shot/
+    ├── wav2vec2-zero-shot/
     └── wavlm-zero-shot/
 ```
 
@@ -65,10 +65,10 @@ Each experiment directory contains the following output files:
 
 | Directory           | Description                                | What It Contains                                                                               |
 | ------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| `ZeroShotResult/`   | Zero-shot evaluation on **Music** dataset  | Pre-trained models with randomly initialized classification heads evaluated on music test set  |
-| `ZershotSPeech/`    | Zero-shot evaluation on **Speech** dataset | Pre-trained models with randomly initialized classification heads evaluated on speech test set |
 | `Fine-TunedSpeech/` | Cross-domain evaluation                    | Models fine-tuned on music, then evaluated on speech (unseen domain)                           |
 | `FineTuneMusic/`    | Training notebooks                         | Jupyter notebooks for fine-tuning each model on the music dataset                              |
+| `ZeroShotResult/`   | Zero-shot evaluation on **Music** dataset  | Pre-trained models with randomly initialized classification heads evaluated on music test set  |
+| `ZershotSPeech/`    | Zero-shot evaluation on **Speech** dataset | Pre-trained models with randomly initialized classification heads evaluated on speech test set |
 
 ### 📄 CSV File Contents
 
