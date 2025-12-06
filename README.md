@@ -165,7 +165,7 @@ pip install torch torchaudio transformers evaluate scikit-learn pandas numpy
 
 ## 📧 Contact
 
-For questions or collaboration inquiries, please contact: j ensonc.haliM@gmail.com
+For questions or collaboration inquiries, please contact: jensonc.Halim@gmail.com
 
 ---
 
