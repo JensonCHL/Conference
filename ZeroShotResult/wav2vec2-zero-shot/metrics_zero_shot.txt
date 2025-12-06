@@ -1,0 +1,9 @@
+==== Zero-Shot Test Metrics (Wav2Vec2) ====
+eval_loss: 0.6868736147880554
+eval_model_preparation_time: 0.002
+eval_accuracy: 0.5908032596041909
+eval_f1_macro: 0.5241456615742246
+eval_auroc: 0.7278337997800258
+eval_runtime: 314.3121
+eval_samples_per_second: 10.932
+eval_steps_per_second: 0.344
