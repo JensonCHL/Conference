@@ -4,8 +4,6 @@ Official implementation and experimental results for the paper:
 
 **"Cross Domain Detection of AI Generated Songs: Benchmarking Encoder Models on Bahasa Indonesia"**
 
-**Authors:** Jenson Christopher Halim, Henry Lucky  
-**Institution:** Bina Nusantara University, Jakarta, Indonesia
 
 ---
 
